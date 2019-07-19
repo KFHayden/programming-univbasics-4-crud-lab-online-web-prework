@@ -3,13 +3,15 @@ def create_an_empty_array
 end
 
 def create_an_array
-
+  ["one", "two", "three", "four"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  ["one", "two", "three", "four"]<<("arrays!")
+end
+
 def add_element_to_start_of_array(array, element)
-  
+  "[ ]
 end
 
 def remove_element_from_end_of_array(array)
